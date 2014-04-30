@@ -1,3 +1,92 @@
-prueba repositorio
+<!DOCTYPE html> <!-- Esto es HTML5 -->
+<!-- HTML: Idioma por pagina -->
+<html lang="es">
+<!-- Etiquetas necesarias que no son contenido -->
+	<head>
+		<!-- Atributo: codificación -->
+		<meta charset="utf-8" />
+		<!-- Titulo de la pagina: entre 60 a 70 caracteres -->
+		<title>Frontend: esta es la pagina principal</title>
+		<!-- Descripción: entre 155 a 160 caracteres -->
+		<meta name="description" content="Curso de Frontend online" />
+		<!-- Responsive design -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
+		<!-- Hoja de estilos para normalizar los estilos -->
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<!-- Hoja de estilos en un link -->
+		<link rel="stylesheet" href="css/estilos.css"/>	
+		<!-- normalize para normalizar todos los estilos de los navegadores -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- modernize arregla compatibilidad entre navegadores -->
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<!-- Prefixfree es el unico scrpt que se deja en el head despues de los estilos -->
+		<script src="js/prefixfree.min.js"></script>
 
-Prueba
+
+
+		<!-- Javascript en un link externo: Jquery  se recomienda dejarlso sin http: -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- Este codigo dice que si la carga de jquery fallo desde google, entonces lo carge desde mi propia carpeta -->
+		 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<!-- Javascript en un link -->
+		<script type="text/javascript" src="javascript.js"></script>
+		<!-- Javascript en el HTML -->
+		<script type="text/javascript">
+			console.log('Esto es Javascript dentro del HTML');
+		</script>
+	</head>
+	<!-- Contenido HTML -->
+	<body>
+		<!-- Cabecera -->
+		<header>
+			<!-- Hoja de estilos en la etiqueta HTML -->
+			<figure id="logo" style="margin: 0;">
+				<img src="https://yahoov4s1-a.akamaihd.net/sj/2196/2358758936_c928ef7401.jpg" />
+			</figure>
+			<h1>Curso de Frontend</h1>
+		</header>
+		<!-- Menu de navegación -->
+		<nav>
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">Backbone</a></li>
+			<li><a href="#">Django</a></li>
+			<li><a href="#">Node.js</a></li>
+		</nav>
+		<!-- Contenido -->
+		<section>
+			<!-- Articulo -->
+			<article class="item">
+				<figure class="figure_item">
+					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
+				</figure>
+				<h2 class="title_item">
+					<a href="#">Título</a>
+				</h2>
+				<div class="data_item">
+					<span>Texto descriptivo</span>
+				</div>
+			</article>
+			<article class="item">
+				<figure class="figure_item">
+					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
+				</figure>
+				<h2 class="title_item">
+					<a href="#">Título</a>
+				</h2>
+				<div class="data_item">
+					<span>Texto descriptivo</span>
+				</div>
+			</article>
+		</section>
+		<!-- Pie de pagina -->
+		<footer>
+			<strong>Mejorando.la</strong>
+			<p>Texto de parrafo</p>
+		</footer>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script src="js/formulario.js"></script>
+		<script src="geo.js"></script>
+		<script src="ajax.js"></script>
+	</body>
+</html>
