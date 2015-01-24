@@ -17,27 +17,10 @@
 		<link rel="stylesheet" href="css/estilos.css"/>	
 		<!-- normalize para normalizar todos los estilos de los navegadores -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<!-- modernize arregla compatibilidad entre navegadores -->
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<!-- Prefixfree es el unico scrpt que se deja en el head despues de los estilos -->
+		
+		<!-- Prefixfree es el unico script que se deja en el head despues de los estilos -->
 		<script src="js/prefixfree.min.js"></script>
 
-
-		<script type="tet/javascript" src="codigo.js">
-		</script>
-
-
-
-		<!-- Javascript en un link externo: Jquery  se recomienda dejarlso sin http: -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<!-- Este codigo dice que si la carga de jquery fallo desde google, entonces lo carge desde mi propia carpeta -->
-		 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"></script>')</script>
-		<!-- Javascript en un link -->
-		<script type="text/javascript" src="javascript.js"></script>
-		<!-- Javascript en el HTML -->
-		<script type="text/javascript">
-			console.log('Esto es Javascript dentro del HTML');
-		</script>
 	</head>
 	<!-- Contenido HTML -->
 	<body>
@@ -97,10 +80,20 @@
 			<strong>Mejorando.la</strong>
 			<p>Texto de parrafo</p>
 		</footer>
+		
+		<!-- modernize arregla compatibilidad entre navegadores -->
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+		<!-- Javascript en un link externo: Jquery  se recomienda dejarlo sin http: -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- Este codigo dice que si la carga de jquery fallo desde google, entonces lo carge desde mi propia carpeta -->
+		 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"></script>')</script>
+
+
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-			<script src="js/formulario.js"></script>
-		<script src="geo.js"></script>
+		<script src="js/formulario.js"></script>
 		<script src="ajax.js"></script>
+
 		<script>
 		/*inicio();*/
 		/*$(function(){
